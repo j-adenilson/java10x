@@ -14,10 +14,16 @@ public class Main {
         Naruto.idade = 16;
         Naruto.aldeia = "Aldeia da folha";
 
+
         Ninja Sasuke = new Ninja();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.idade = 17;
         Sasuke.aldeia = "Aldeia da folha";
+        Sasuke.SharinganAtivado();
+        String boasVindas = Sasuke.BoasVindas();
+        System.out.println(boasVindas);
+        int quantoFalta = Sasuke.anosParaSerHokage(50);
+        System.out.println("vc tem " + Sasuke.idade + " Falta " + quantoFalta + " anos" );
 
         Ninja Sakura = new Ninja();
         Sakura.nome = "Sakura Haruno";
