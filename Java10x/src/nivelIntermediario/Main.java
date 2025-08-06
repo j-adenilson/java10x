@@ -9,26 +9,25 @@ public class Main {
 
         //criando objeto
 
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.idade = 16;
         Naruto.aldeia = "Aldeia da folha";
+        Naruto.modoSabio();
 
 
-        Ninja Sasuke = new Ninja();
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.idade = 17;
         Sasuke.aldeia = "Aldeia da folha";
         Sasuke.SharinganAtivado();
-        String boasVindas = Sasuke.BoasVindas();
-        System.out.println(boasVindas);
-        int quantoFalta = Sasuke.anosParaSerHokage(50);
-        System.out.println("vc tem " + Sasuke.idade + " Falta " + quantoFalta + " anos" );
 
-        Ninja Sakura = new Ninja();
+
+        Haruno Sakura = new Haruno();
         Sakura.nome = "Sakura Haruno";
         Sakura.idade = 17;
         Sakura.aldeia = "Aldeia da folha";
+        Sakura.ativarCura();
 
     }
 }
