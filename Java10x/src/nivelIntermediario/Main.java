@@ -29,5 +29,20 @@ public class Main {
         Sakura.aldeia = "Aldeia da folha";
         Sakura.ativarCura();
 
+        Hyuga Hynata = new Hyuga();
+        Hynata.nome = "Hynata Hyuga";
+        Hynata.idade = 16;
+        Hynata.aldeia = "Aldeia da folha";
+        Hynata.byakuganAtivado();
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da folha";
+        Boruto.idade = 10;
+        Boruto.ativarJougan();
+        Boruto.ativarOKarma();
+        Boruto.modoSabio();
+
+
     }
 }
