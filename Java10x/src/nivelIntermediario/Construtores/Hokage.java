@@ -1,9 +1,11 @@
 package nivelIntermediario.Construtores;
 
-public class Hokage {
+public abstract class Hokage {
     String nome;
     int idade;
     boolean vivoOuNao;
+
+    public abstract void sabedoriaHokage();
 
     //construtor sem argumentos
     public Hokage(){
