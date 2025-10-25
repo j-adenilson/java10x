@@ -1,14 +1,13 @@
 package TiposDeDados;
 
 public class DadosPrimitivios {
-    static void main() {
-        String nome = "Naruto Usumaki";
+    public static void main(String[] args) {
+
         int idade = 16;
         double altura = 1.70;
         char letra = 'N';
         boolean vivoOuMorto = true;
         Long saldoBancario = 9999999999999L;
-
 
 
 
