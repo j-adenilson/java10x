@@ -2,12 +2,8 @@ package Intermediario;
 
 public class Uzumaki extends Ninja{
 
-    public void ModoSenninAtivado(){
-        System.out.println(nome + " Modo sennin ativado");
-    }
-
     @Override
-    public void ataqueEspecial(){
-        System.out.println(nome + " Ataque Rasengan");
+    public void habilidadeEspecial(){
+        System.out.println(nome + " ataque de ar");
     }
 }
