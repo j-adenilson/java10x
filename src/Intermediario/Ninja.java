@@ -5,15 +5,12 @@ public class Ninja {
     String aldeia;
     int idade;
 
-    public void SharinganAtivado(){
-        System.out.println("O charingan ativou");
+    public void ataqueBasico(){
+        System.out.println(nome + " Ataque basico ninja");
     }
 
-    public String boasVindasMeuNomeE(){
-        return "Olá, meu nome é " + nome;
+    public void ataqueEspecial(){
+        System.out.println(nome + " Ataque especial ninja");
     }
 
-    public int anosParaSerHokage(int idadeMinima){
-        return idadeMinima - idade;
-    }
 }
