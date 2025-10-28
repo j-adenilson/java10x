@@ -21,5 +21,17 @@ public class Main {
         Sasuke.SharinganAtivado();
         Sasuke.ataqueBasico();
         Sasuke.ataqueEspecial();
+
+        //Ninja 3
+        Hyuga Hynata = new Hyuga();
+        Hynata.nome = "Hynata Hiuga";
+        Hynata.ByacuganAtivado();
+
+        //Ninja 4
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Uzumaki";
+        Boruto.AtivarJougan();
+        Boruto.AtivarOKarma();
+        Boruto.ModoSenninAtivado();
     }
 }
