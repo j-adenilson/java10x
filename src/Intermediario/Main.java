@@ -11,5 +11,12 @@ public class Main {
     Sasuke.nome = "Sasuke uchiha";
     Sasuke.habilidadeEspecial();
 
+    Hokages Hasirama = new Hokages("hashirama Senju", 35, false);
+
+    Hokages Tobirama = new Hokages("Tobirama Senju", 30, false);
+
+    System.out.println(Hasirama.nome);
+    System.out.println(Tobirama.nome);
+
     }
 }
