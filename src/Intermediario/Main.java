@@ -5,10 +5,12 @@ public class Main {
 
 
     Uzumaki Naruto = new Uzumaki();
-    Naruto.nome = "Naruto Uzuaki";
-    Naruto.habilidadeEspecial();
+    Naruto.nome = "Naruto Uzumaki";
+    Naruto.estrategiaDeBatalha();
+
 
     Uchiha Sasuke = new Uchiha();
-
+    Sasuke.nome = "Sasuke Uchiha";
+    Sasuke.estrategiaDeBatalha();
     }
 }
