@@ -14,6 +14,10 @@ public class Uchiha extends Ninja implements SharinganInterface{
         super(nome, aldeia, idade);
     }
 
+    public Uchiha(int numeroDeMissoes, Rank nivelNinja) {
+        super(numeroDeMissoes, nivelNinja);
+    }
+
     @Override
     public void habilidadeEspecial(){
 

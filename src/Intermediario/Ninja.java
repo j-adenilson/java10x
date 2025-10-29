@@ -5,6 +5,11 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     String aldeia;
     int idade;
 
+    //TODO: incluindo novos atributos (numero de missoes / rank)
+    int numeroDeMissoes;
+    Rank nivelNinja;
+    //================
+
     public Ninja() {
     }
 
@@ -12,6 +17,12 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.nome = nome;
         this.aldeia = aldeia;
         this.idade = idade;
+    }
+
+    //sobrecarga de construtor
+    public Ninja(int numeroDeMissoes, Rank nivelNinja) {
+        this.numeroDeMissoes = numeroDeMissoes;
+        this.nivelNinja = nivelNinja;
     }
 
     public abstract void habilidadeEspecial();

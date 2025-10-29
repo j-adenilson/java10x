@@ -12,5 +12,6 @@ public class Main {
     Kakashi.sharinganAtivado();
     Kakashi.benvindoAAnbu();
 
+
     }
 }
