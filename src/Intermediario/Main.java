@@ -15,7 +15,7 @@ public class Main {
     Sasuke.habilidadeEspecial();
     Sasuke.estrategiaDeBatalha();
 
-    Uchiha Itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha", 18)
+    Uchiha Itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha", 18);
 
 
     }
