@@ -4,19 +4,13 @@ public class Main {
     public static void main (String[] args){
 
 
-    Uzumaki Naruto = new Uzumaki();
-    Naruto.nome = "Naruto Uzumaki";
-    Naruto.habilidadeEspecial();
-    Naruto.estrategiaDeBatalha();
-
-
     Uchiha Sasuke = new Uchiha();
     Sasuke.nome = "Sasuke Uchiha";
-    Sasuke.habilidadeEspecial();
-    Sasuke.estrategiaDeBatalha();
+    Sasuke.sharinganAtivado();
 
-    Uchiha Itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha", 18);
-
+    Hatake Kakashi = new Hatake("Kakashi Hatake", "Aldeia da folha", 28);
+    Kakashi.sharinganAtivado();
+    Kakashi.benvindoAAnbu();
 
     }
 }

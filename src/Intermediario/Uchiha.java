@@ -1,6 +1,10 @@
 package Intermediario;
 
-public class Uchiha extends Ninja {
+public class Uchiha extends Ninja implements SharinganInterface{
+
+    public void sharinganAtivado(){
+        System.out.println(nome + " Saringan ativado");
+    }
 
     public Uchiha() {
         super();
