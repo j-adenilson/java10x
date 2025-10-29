@@ -1,12 +1,14 @@
 package Intermediario;
 
-public class Ninja {
+public abstract class Ninja {
     String nome;
     String aldeia;
     int idade;
 
-    public void habilidadeEspecial(){
-        System.out.println(nome + " ataque especial");
+    public abstract void habilidadeEspecial();
+
+    public void ataqueNormal(){
+        System.out.println(nome + " Ataque normal");
     }
 
 }
