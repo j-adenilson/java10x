@@ -1,43 +1,61 @@
 package Intermediario;
 
-public abstract class Ninja implements EstrategiaDeBatalha {
-    String nome;
-    String aldeia;
-    int idade;
+public abstract class Ninja{
 
-    //TODO: incluindo novos atributos (numero de missoes / rank)
-    int numeroDeMissoes;
-    Rank nivelNinja;
+    private String nome;
+    private String aldeia;
+    private int idade;
+    private int numeroDeMissoesConcluidas;
+    private double altura = 1.75;
 
     public Ninja() {
     }
 
-    public Ninja(String nome, String aldeia, int idade) {
+    public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, double altura) {
         this.nome = nome;
         this.aldeia = aldeia;
         this.idade = idade;
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+        this.altura = altura;
     }
 
-    //sobrecarga de construtor
-    public Ninja(int numeroDeMissoes, Rank nivelNinja) {
-        this.numeroDeMissoes = numeroDeMissoes;
-        this.nivelNinja = nivelNinja;
+    public String getNome() {
+        return nome;
     }
 
-
-    public abstract void habilidadeEspecial();
-
-    public void ataqueNormal(){
-
-        System.out.println(nome + " Ataque normal");
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    final void tacarKunai(){
-        System.out.println("tacar kunai " + nome);
+    public String getAldeia() {
+        return aldeia;
     }
 
-    @Override
-    public String toString() {
-        return "Ola " + nome;
+    public void setAldeia(String aldeia) {
+        this.aldeia = aldeia;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getNumeroDeMissoesConcluidas() {
+        return numeroDeMissoesConcluidas;
+    }
+
+    public void setNumeroDeMissoesConcluidas(int numeroDeMissoesConcluidas) {
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
     }
 }
