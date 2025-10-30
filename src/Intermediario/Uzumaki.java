@@ -22,4 +22,5 @@ public class Uzumaki extends Ninja{
         System.out.println(nome + " essa é minha estrategia Uzumaki");
     }
 
+
 }

@@ -32,6 +32,10 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         System.out.println(nome + " Ataque normal");
     }
 
+    final void tacarKunai(){
+        System.out.println("tacar kunai " + nome);
+    }
+
     @Override
     public String toString() {
         return "Ola " + nome;

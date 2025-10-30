@@ -29,4 +29,6 @@ public class Uchiha extends Ninja implements SharinganInterface{
 
         System.out.println(nome + " essa é minha estrategia Uchiha");
     }
+
+
 }
