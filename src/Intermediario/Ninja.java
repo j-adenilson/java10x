@@ -8,7 +8,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     //TODO: incluindo novos atributos (numero de missoes / rank)
     int numeroDeMissoes;
     Rank nivelNinja;
-    //================
 
     public Ninja() {
     }
@@ -25,12 +24,16 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.nivelNinja = nivelNinja;
     }
 
+
     public abstract void habilidadeEspecial();
 
     public void ataqueNormal(){
+
         System.out.println(nome + " Ataque normal");
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Ola " + nome;
+    }
 }
