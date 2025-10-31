@@ -6,22 +6,13 @@ import java.util.List;
 public class Main {
     public static void main (String[] args){
 
-        //Listas
-        List<String> ninjasList = new ArrayList<>();
-        ninjasList.add("Naruto Uzuaki");
-        ninjasList.add("Sasuke Uchiha");
-        ninjasList.add("Sakura Haruno");
-        ninjasList.add("Kakashi Hatake");
-        System.out.println(ninjasList);
+        BolsaNinja<Object> bolsaNinja = new BolsaNinja<>();
+        bolsaNinja.adicionarFerramenta(new Kunai("Kunai"));
+        bolsaNinja.adicionarFerramenta(new Shuriken(3));
+        bolsaNinja.adicionarFerramenta(new Pergaminho("Invocação"));
+        bolsaNinja.adicionarFerramenta(new CompanheiroNinja("Mamaco"));
 
-        ninjasList.remove("Kakashi Hatake");
-        System.out.println(ninjasList);
-
-        ninjasList.set(2, "Hashirama Senju");
-        System.out.println(ninjasList);
-
-        System.out.println("Tamanho da lista: " + ninjasList.size() + " Elementos");
-
-
+        System.out.println("Itens da bolsa: " );
+        bolsaNinja.mostrarFerramenta();
     }
 }
