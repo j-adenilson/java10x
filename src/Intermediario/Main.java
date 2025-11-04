@@ -5,21 +5,18 @@ import java.util.*;
 public class Main {
     public static void main (String[] args) {
 
-    String[] aray = new String[5];
-    ArrayList<String> arrayList =new ArrayList<>();
-    Stack<String> stack = new Stack<>();
-    Queue<String> queue = new LinkedList<>();
-    PriorityQueue<String> priorityQueue = new PriorityQueue<>();
+    List<String> ninjas = new ArrayList<>();
+    ninjas.add("Naruto");
+    ninjas.add("Sasuke");
+    ninjas.add("Sakura");
+    ninjas.add("Naruto");
+    System.out.println("ninjas " + ninjas);
 
-    LinkedList<String> linkedList = new LinkedList<>();
-    linkedList.add("Naruto");
-    linkedList.add("Sasuke");
-    linkedList.add("Sakura");
-
-    System.out.println(linkedList);
-    linkedList.add(1, "kakashi");
-    System.out.println(linkedList);
-
+    Set<String> ninjasSet = new HashSet<>();
+    ninjasSet.addAll(ninjas);
+    System.out.println("NinjasSet: " + ninjasSet);
+    ninjasSet.remove("Sasuke");
+        System.out.println(ninjasSet);
 
 
 
